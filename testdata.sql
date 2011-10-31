@@ -1,0 +1,16 @@
+CREATE DATABASE eg1
+go
+use eg1
+go
+CREATE TABLE tbl_one (a NUMERIC, b NUMERIC, c NUMERIC);
+go
+INSERT INTO tbl_one VALUES(1,1,1);
+go
+CREATE DATABASE eg2
+go
+use eg2
+go
+CREATE TABLE tbl_one (a NUMERIC, b NUMERIC, c NUMERIC);
+go
+INSERT INTO tbl_one VALUES(1,1,1);
+go
